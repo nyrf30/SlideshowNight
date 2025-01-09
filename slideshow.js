@@ -91,7 +91,7 @@ let matrix = [["Ben", "Andrew", "Evan", "Colton", "Richard", "Jesse"],
             ["Richard", "Jesse", "Ben", "Colton", "Evan", "Andrew"],                    
             ["Richard", "Jesse", "Evan", "Andrew", "Ben", "Colton"],                    
             ["Richard", "Jesse", "Evan", "Colton", "Ben", "Andrew"]];
-const index = 7537188 % 93;
+const index = 8472588 % 93;
 var andrew = matrix[index][0];
 var ben = matrix[index][1];
 var colton = matrix[index][2];
@@ -121,45 +121,45 @@ function test() {
     document.getElementById("assign").innerHTML = "";
     document.getElementById("fig1").style.display = "block";
     document.getElementById("fig2").style.display = "block";
-    if (password == "wagdrew") {
+    if (password == "nhtmtiom") {
         document.getElementById("crecaption").innerHTML = "CREATOR: Andrew";
         document.getElementById("precaption").innerHTML = "PRESENTER: " + andrew;
         document.getElementById("creator").src = images[0];
         document.getElementById("presenter").src = presenters[0];
 
     }
-    else if (password == "benward") {
+    else if (password == "Benvejjie") {
         document.getElementById("crecaption").innerHTML = "CREATOR: Ben";
         document.getElementById("precaption").innerHTML = "PRESENTER: " + ben;
         document.getElementById("creator").src = images[1];
         document.getElementById("presenter").src = presenters[1];
     }
-    else if (password == "cole4christmas") {
+    else if (password == "Biggest Man") {
         document.getElementById("crecaption").innerHTML = "CREATOR: Colton";
         document.getElementById("precaption").innerHTML = "PRESENTER: " + colton;
         document.getElementById("creator").src = images[2];
         document.getElementById("presenter").src = presenters[2];
     }
-    else if (password == "evanshmevan") {
+    else if (password == "Evanschmevan") {
         document.getElementById("crecaption").innerHTML = "CREATOR: Evan";
         document.getElementById("precaption").innerHTML = "PRESENTER: " + evan;
         document.getElementById("creator").src = images[3];
         document.getElementById("presenter").src = presenters[3];
     }
-    else if (password == "autisticprobably") {
+    else if (password == "D00kien!mrod") {
         document.getElementById("crecaption").innerHTML = "CREATOR: Jesse";
         document.getElementById("precaption").innerHTML = "PRESENTER: " + jesse;
         document.getElementById("creator").src = images[4];
         document.getElementById("presenter").src = presenters[4];
     }
-    else if (password == "dickard") {
+    else if (password == "Rickyricky") {
         document.getElementById("crecaption").innerHTML = "CREATOR: Richard";
         document.getElementById("precaption").innerHTML = "PRESENTER: " + richard;
         document.getElementById("creator").src = images[5];
         document.getElementById("presenter").src = presenters[5];
     }
     else {
-        document.getElementById("assign").innerHTML = "Seriously? I know that you know this isn't the code I fucking sent you. You probably think you're sooooo funny, don't you dickface? Either that or you're that fucking dense to mistype the simple ass password I gave you. I know this shit is you Ben.";
+        document.getElementById("assign").innerHTML = "Seriously? I know that you know this isn't the code I fucking sent you. You probably think you're soooo funny, don't you dickface? Either that or you're that fucking dense to mistype the simple ass password I gave you. I know this shit is you Ben.";
         document.getElementById("fig1").style.display = "none";
         document.getElementById("fig2").style.display = "none";
     }

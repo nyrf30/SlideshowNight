@@ -57,7 +57,7 @@ main button {
     padding: 0 5px;
     border: 1px solid black;
     color: black;
-    background-color: blue;
+    background-color: rgb(58, 58, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
 }
