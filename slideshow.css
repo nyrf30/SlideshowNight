@@ -249,6 +249,12 @@ aside figcaption {
     main p {
         font-size: .9em;
     }
+    main div {
+        width: 380px;
+    }
+    main input {
+        width: 270px;
+    }
 }
 @media only screen and (max-width: 515px) {
     header h1 {
@@ -256,5 +262,46 @@ aside figcaption {
     }
     main p {
         font-size: .85em;
+    }
+    main div {
+        width: 350px;
+    }
+    main input {
+        width: 240px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    header h1 {
+        font-size: 1.4em;
+    }
+    main p {
+        font-size: 1em;
+    }
+    aside {
+        height: 170px;
+    }
+    aside #fig1 {
+        top: 7px;
+        left: 10px;
+    }
+    aside #fig2 {
+        top: 7px;
+        right: 10px;
+    }
+    aside #creator {
+        width: 140px;
+        height: 140px;
+    }
+    aside #presenter {
+        width: 140px;
+        height: 140px;
+    }
+    aside figcaption {
+        font-size: 1.15em;
+    }
+}
+@media only screen and (max-width: 485px) {
+    header h1 {
+        font-size: 1.37em;
     }
 }
