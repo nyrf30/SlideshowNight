@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    background-color: rgb(239, 239, 177);
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+header {
+    background-image: linear-gradient(
+	    30deg, black 0%, #232047 30%, black 50%, #232047 80%, black 100%);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    font-style: italic;
+    color: white;
+    padding: 1em 0;
+}
+
+main {
+    text-align: center;
+}
+
+main p {
+    width: 800px;
+    font-size: 2em;
+    font-weight: 900;
+    margin: 0.5em auto;
+}
+
+main form {
+    width: 1000px;
+    margin: 0 auto;
+    height: 2em;
+}
+
+main div {
+    width: 41%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+main input {
+    display: block;
+    font-size: 1.5em;
+    border: 1px solid black;
+    float: left;
+    padding: 0 10px;
+}
+
+main button {
+    display: block;
+    font-size: 1.5em;
+    float: right;
+    padding: 0 5px;
+}
+
+main button:active {
+    background-color: rgb(80, 80, 85);
+    color: white;
+}
+
+aside {
+    position: relative;
+    width: 1000px;
+    height: 330px;
+    margin: 10px auto;
+}
+
+aside #fig1 {
+    position: absolute;
+    left: 100px;
+    display: none;
+}
+
+aside #fig2 {
+    position: absolute;
+    right: 100px;
+    display: none;
+}
