@@ -122,39 +122,39 @@ function test() {
     document.getElementById("fig1").style.display = "block";
     document.getElementById("fig2").style.display = "block";
     if (password == "wagdrew") {
-        document.getElementById("crecaption").innerHTML = "<strong>CREATOR:</strong> Andrew";
-        document.getElementById("precaption").innerHTML = "<strong>PRESENTER:</strong> " + andrew;
+        document.getElementById("crecaption").innerHTML = "CREATOR: Andrew";
+        document.getElementById("precaption").innerHTML = "PRESENTER: " + andrew;
         document.getElementById("creator").src = images[0];
         document.getElementById("presenter").src = presenters[0];
 
     }
     else if (password == "benward") {
-        document.getElementById("crecaption").innerHTML = "<strong>CREATOR:</strong> Ben";
-        document.getElementById("precaption").innerHTML = "<strong>PRESENTER:</strong> " + ben;
+        document.getElementById("crecaption").innerHTML = "CREATOR: Ben";
+        document.getElementById("precaption").innerHTML = "PRESENTER: " + ben;
         document.getElementById("creator").src = images[1];
         document.getElementById("presenter").src = presenters[1];
     }
     else if (password == "cole4christmas") {
-        document.getElementById("crecaption").innerHTML = "<strong>CREATOR:</strong> Colton";
-        document.getElementById("precaption").innerHTML = "<strong>PRESENTER:</strong> " + colton;
+        document.getElementById("crecaption").innerHTML = "CREATOR: Colton";
+        document.getElementById("precaption").innerHTML = "PRESENTER: " + colton;
         document.getElementById("creator").src = images[2];
         document.getElementById("presenter").src = presenters[2];
     }
     else if (password == "evanshmevan") {
-        document.getElementById("crecaption").innerHTML = "<strong>CREATOR:</strong> Evan";
-        document.getElementById("precaption").innerHTML = "<strong>PRESENTER:</strong> " + evan;
+        document.getElementById("crecaption").innerHTML = "CREATOR: Evan";
+        document.getElementById("precaption").innerHTML = "PRESENTER: " + evan;
         document.getElementById("creator").src = images[3];
         document.getElementById("presenter").src = presenters[3];
     }
     else if (password == "autisticprobably") {
-        document.getElementById("crecaption").innerHTML = "<strong>CREATOR:</strong> Jesse";
-        document.getElementById("precaption").innerHTML = "<strong>PRESENTER:</strong> " + jesse;
+        document.getElementById("crecaption").innerHTML = "CREATOR: Jesse";
+        document.getElementById("precaption").innerHTML = "PRESENTER: " + jesse;
         document.getElementById("creator").src = images[4];
         document.getElementById("presenter").src = presenters[4];
     }
     else if (password == "dickard") {
-        document.getElementById("crecaption").innerHTML = "<strong>CREATOR:</strong> Richard";
-        document.getElementById("precaption").innerHTML = "<strong>PRESENTER:</strong> " + richard;
+        document.getElementById("crecaption").innerHTML = "CREATOR: Richard";
+        document.getElementById("precaption").innerHTML = "PRESENTER: " + richard;
         document.getElementById("creator").src = images[5];
         document.getElementById("presenter").src = presenters[5];
     }
