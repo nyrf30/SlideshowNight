@@ -159,7 +159,7 @@ function test() {
         document.getElementById("presenter").src = presenters[5];
     }
     else {
-        document.getElementById("assign").innerHTML = "Invalid code.";
+        document.getElementById("assign").innerHTML = "Seriously? I know that you know this isn't the code I fucking sent you. You probably think you're sooooo funny, don't you dickface? Either that or you're that fucking dense to mistype the simple ass password I gave you. I know this shit is you Ben.";
         document.getElementById("fig1").style.display = "none";
         document.getElementById("fig2").style.display = "none";
     }
